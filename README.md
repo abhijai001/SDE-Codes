@@ -17,3 +17,6 @@ Arrays: traversal, sum, max, min
 
 #Day 06
 String: reverse , palindrome , count vowels , count cons
+
+#DAY 07 
+Function: Declaration, Definition , Call by value , Call by reference 
