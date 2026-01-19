@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[10],max =0,min=arr[0];
+    int arr[10],max =arr[0],min=arr[0];
     for(int i =0;i<10;i++){
         cout<<"Enter the elements";
         cin>>arr[i];
