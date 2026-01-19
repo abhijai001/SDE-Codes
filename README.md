@@ -1,7 +1,7 @@
 Phase 1 (C++ Fundamentals)
 
 #Day 01
-C++ setup, Hello World, basic input/output
+Hello World, basic input/output
 
 #Day 02
 Variables, data types, basic problems
@@ -13,4 +13,7 @@ Operators, if-else, condition-based problems
 Loops (for, while), nested loops, pattern problems
 
 #Day 05
-Arrays: traversal, sum, max, min + 5 practice problems
+Arrays: traversal, sum, max, min 
+
+#Day 06
+String: reverse , palindrome , count vowels , count cons
