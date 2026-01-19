@@ -11,6 +11,6 @@ int main(){
     }else{
         cout<<"negative";
     }
-
+    
     return 0;
 }
