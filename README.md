@@ -20,3 +20,24 @@ String: reverse , palindrome , count vowels , count cons
 
 #DAY 07 
 Function: Declaration, Definition , Call by value , Call by reference 
+
+#DAY 08
+Pointer basic and arithmetic
+
+#DAY 09
+Dynamic Memory Allocation
+
+#DAY 10
+Structs
+
+#DAY 11
+Classes and Objects
+
+#DAY 12
+Constructor and Destructor
+
+#DAY 13
+Inheritance basics
+
+#DAY 14
+Polymorphis & Encapsulation
