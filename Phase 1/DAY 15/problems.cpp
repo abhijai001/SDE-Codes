@@ -8,6 +8,10 @@ int main(){
     //Simple input and output in vector
     cout<<"Enter the size of vector: ";
     cin>>n;
+    if(n<=0){
+        cout<<"Invalid Size!!";
+        return 0;
+    }
     cout<<"Enter the element: ";
     for(int i=0;i<n;i++){
         
@@ -31,7 +35,7 @@ int main(){
     for(vector<int>::iterator it = v.begin();it!=v.end();it++){
         if(*it>max){
             max=*it;
-        }else if(*it<min){
+        }if(*it<min){
             min=*it;
         }
     }
@@ -40,14 +44,14 @@ int main(){
     cout<<endl;
     //reverse vector
     cout<<"the reverse vector is: ";
-    for(int i=v.size()-1;i>=0;i--){
-        cout<<v[i]<<" ";
+    for(auto it=v.rbegin();it!=v.rend();it++){
+        cout<<*it<<" ";
     }
     cout<<endl;
     //count even number
     int even=0;
     int odd=0;
-    for(vector<int>::iterator it=v.begin();it!=v.end();it++){
+    for(auto it=v.begin();it!=v.end();it++){
         if(*it%2==0){
             even++;
         }else{
