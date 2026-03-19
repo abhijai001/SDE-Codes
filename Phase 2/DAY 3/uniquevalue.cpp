@@ -18,7 +18,7 @@ void unique(int arr[],int n){
 }
 int main(){
     int arr[]={1,2,3,4,5,5,4,3,2};
-    int n=9;
+    int n=9;   
     unique(arr,n);
     return 0;
 }
